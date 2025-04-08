@@ -1,2 +1,3 @@
-# Asian-option-pricing
-Numerical Simulation of an Asian option
+1.	Option Designing: Devised a 1-year Asian option with a payoff based on the arithmetic mean of stock prices on 12 timestamps 
+2.	Monte Carlo Simulation: Simulated monthly stock prices and payoff with the discrete GBM, utilized antithetic variables, moment matching and control variates (Asian option on geometric mean) for variance reduction, achieved a Std error of 0.0002 
+3.	Risk Analysis(Sensitivity): Shocked the spot price, volatility, and risk-free rate separately in the finite difference method to approximate the values of Delta, Gamma, Vega, and Rho of the Asian option, providing the basis for hedging actions
